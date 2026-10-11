@@ -176,16 +176,16 @@
 - 更新频率：YT 教程随新品持续上新；估计值
 
 ### 广告侧
-- Meta 广告库美国区约 **200 条在投**（2026-10-09 核验，全部来自官方 "Jasion Global" 主页 facebook.com/jasionbike/）
+- Meta 广告库美国区约 **190 条在投**（2026-10-10 复核，免登录直查；10-09 为约 200 条。全部来自官方 "Jasion Global" 主页 facebook.com/jasionbike/）。代表性广告：X-Hunter Long Range 两台 $1859 送备用电池（2025-08-01 上线）、6 周年 RetroVolt Pro $899 + 神秘礼盒（2026-05-22 上线）、网红折扣码（SQUATCH5，2026-05-07；68v 推广 RetroVolt Pro，2026-01-30）
 - 创意套路：网红合作内容白名单投放 + 价格锚+折扣码三件套，素材生命周期长达 4–5 个月（money-vote 验证过的创意）
 
 ### 社媒强度：强
-证据：五家里唯一广告+社媒双开的（200 条在投 Meta 广告 + 成体系的 UGC 创作者矩阵 + 全系产品教程库），内容和投放互相喂料。
+证据：五家里唯一广告+社媒双开的（190 条在投 Meta 广告 + 成体系的 UGC 创作者矩阵 + 全系产品教程库），内容和投放互相喂料。
 
 ### 可借鉴点（for N9 PRO）
 1. **跨界创作者种草**：别只找车圈，找"老年生活/钓鱼/露营/农场"类创作者——N9 PRO 的用户（成年人/老年人/重载）本来就不在车圈，Jasion 的跨界矩阵打法直接可抄
 2. **痛点教程即内容**："解除限速教程"这种官方下场教用户玩车的内容，N9 PRO 可做"500lbs 载重怎么绑货/带人安全骑行"系列教程，评论区就是精准流量池
-3. **白名单投放**：把跑得好的 UGC 直接拿去投 Meta 广告，Jasion 用 200 条在投验证了这条路；N9 PRO 上线后第一批广告素材就从 UGC 里挑，不自己拍
+3. **白名单投放**：把跑得好的 UGC 直接拿去投 Meta 广告，Jasion 用约 190 条在投验证了这条路；N9 PRO 上线后第一批广告素材就从 UGC 里挑，不自己拍
 
 ---
 
@@ -197,7 +197,7 @@
 | Mokwheel | /mokwheel（粉丝数未覆盖） | /mokwheel（粉丝数未覆盖） | /mokwheel（粉丝数未覆盖） | /@mokwheel | 未覆盖到（KOL 优惠码体系成熟） | 中 | 官方体量不大，但创作者 seeding + "power station"概念完整 |
 | Eskute | 英国区 @eskute.uk；美国官方号未找到 | @eskuteofficial（做 LIVE 带货，粉丝数未覆盖） | 英国区 /eskuteuk | 有官方内容 | 未覆盖到 | 中 | TikTok 直播卖车品类独一份，deal 帖 880 评论 |
 | Aipas | /aipasebikeofficial（粉丝数未覆盖） | /aipasbikeofficial（待确认） | /aipasebike（粉丝数未覆盖） | Aipas Service 教程系列 | 未覆盖到 | 中 | UGC 开箱生态真实运转（36K 赞出自 3.9 万粉小号） |
-| Jasion | /jasionbike（粉丝数未覆盖） | /jasionbike_official（粉丝数未覆盖） | /jasionbike（粉丝数未覆盖） | /@JasionBike（教程库） | 美区约 200 条在投（2026-10-09 核验） | 强 | 广告+UGC 矩阵+教程库三开，内容投放互喂 |
+| Jasion | /jasionbike（粉丝数未覆盖） | /jasionbike_official（粉丝数未覆盖） | /jasionbike（粉丝数未覆盖） | /@JasionBike（教程库） | 美区约 190 条在投（2026-10-10 复核） | 强 | 广告+UGC 矩阵+教程库三开，内容投放互喂 |
 
 ## 给 N9 PRO 的总建议（社媒操盘手视角）
 

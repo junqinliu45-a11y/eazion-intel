@@ -1,0 +1,109 @@
+{
+  "run_id": "6ae2b7d2-8543-4fcb-bc2e-5baf6926b951",
+  "kind": "竞品监测",
+  "agent": "Scout",
+  "observed_at": "2026-11-17T13:43:47Z",
+  "sources": [
+    {
+      "url": "https://www.kingbullbike.com/products/kingbull-ranger-vintage-off-road-electric-bike",
+      "captured_at": "2026-11-17T13:43:15Z",
+      "fetch_status": "rejected",
+      "evidence_limit": "URL is not a public HTTPS target.",
+      "cache": "miss"
+    },
+    {
+      "url": "https://beecoolbikes.com/products/bee-pathfinder-step-thru",
+      "captured_at": "2026-11-17T13:43:15Z",
+      "fetch_status": "rejected",
+      "evidence_limit": "URL is not a public HTTPS target.",
+      "cache": "miss"
+    },
+    {
+      "url": "https://www.mokwheel.com/products/obsidian-st-2-0",
+      "captured_at": "2026-11-17T13:43:16Z",
+      "fetch_status": "rejected",
+      "evidence_limit": "URL is not a public HTTPS target.",
+      "cache": "miss"
+    },
+    {
+      "url": "https://gotrax.com/products/gotrax-ranger",
+      "captured_at": "2026-11-17T13:43:16Z",
+      "fetch_status": "rejected",
+      "evidence_limit": "URL is not a public HTTPS target.",
+      "cache": "miss"
+    },
+    {
+      "url": "https://www.cycrown.com/collections/best-sellers/products/cychunter-s-moped-style-ebike",
+      "captured_at": "2026-11-17T13:43:16Z",
+      "fetch_status": "rejected",
+      "evidence_limit": "URL is not a public HTTPS target.",
+      "cache": "miss"
+    },
+    {
+      "url": "https://www.puckipuppy.com/products/alaskan",
+      "captured_at": "2026-11-17T13:43:16Z",
+      "fetch_status": "rejected",
+      "evidence_limit": "URL is not a public HTTPS target.",
+      "cache": "miss"
+    }
+  ],
+  "handoffs": [
+    {
+      "name": "聚合 API 2",
+      "model": "gpt-6.1-terra",
+      "output": "{\n  \"summary\": \"根据所提供的监测上下文，建议先人工核验并补全竞品证据，再进行对标。Kingbull Ranger 尚无抓取结果；BeeCool 的价格、配置及视频数据仅可作为所记录时点的公开页面信息。\",\n  \"items\": [\n    {\n      \"title\": \"等待 Kingbull Ranger 公开页抓取\",\n      \"action\": \"待下次同步后，人工核对 Kingbull Ranger 产品页及抓取时间，再决定是否补充价格、配置和服务等监测字段；与 K9 比较前另行补充已批准的 EAZION 产品事实。\",\n      \"evidence_limit\": \"当前记录显示该车型已加入监测清单，但各监测字段均未抓取，不能据此形成产品或价格结论。\"\n    },\n    {\n      \"title\": \"复核 BeeCool 页面价格和配置\",\n      \"action\": \"人工复核 Bee Pathfinder Step-Thru 的公开产品页，并保留来源及核验时间；对标 N9 PRO 前，仅补充经批准的 EAZION 产品事实。\",\n      \"evidence_limit\": \"所提供记录称，2026-09-27 官网页面标价为 1,199 美元、原价 1,999 美元；该页面价格不等于成交价或长期定价。所记录的座管空气避震不得表述为后轮避震，详细配置中没有后轮避震器参数。\"\n    },\n    {\n      \"title\": \"审阅 BeeCool 视频信号的归属\",\n      \"action\": \"如需采用社媒信号，先人工核对所记录的官方 YouTube 视频页面、观看及点赞数据，并明确视频涉及两款 Pathfinder。\",\n      \"evidence_limit\": \"上下文记录的视频为双车型介绍，并非 Step-Thru 专属内容；所记录的 14,594 次观看和 39 个赞仅反映记录时的公开页面数据，不能归因为单一车型的表现。\"\n    }\n  ],\n  \"evidence_limits\": [\n    \"本提案仅依据提供的页面上下文，未独立访问或重新核验所列网址。\",\n    \"缺少已批准的 EAZION 产品事实，不能推断 K9 或 N9 PRO 的价格、配置或竞争优劣。\",\n    \"没有来源或超出所记录时间范围的结论不得采用；本提案不发布内容，也不覆盖现有记录。\"\n  ],\n  \"requires_human_adoption\": true\n}",
+      "tokens": 2144,
+      "elapsed_ms": 13505
+    },
+    {
+      "name": "聚合 API 1",
+      "model": "claude-sonnet-5-5",
+      "output": "```json\n{\n  \"review_status\": \"无法完整审核\",\n  \"reason\": \"输入内容被截断，且没有提供待审核的 proposal 正文和 review_contract。无法按 contract 逐项输出，也不会猜测缺失内容。\",\n  \"missing_inputs\": [\n    \"proposal（待审核的提案或动作列表）\",\n    \"review_contract（输出格式与审核规则）\",\n    \"BeeCool monitorRows 中「产品页卖点与证明」之后的所有行（JSON 在此处中断）\",\n    \"EAZION K9 与 N9 PRO 已批准的产品事实\"\n  ],\n  \"kept_actions\": [],\n  \"flagged_claims\": [\n    {\n      \"target\": \"Kingbull Ranger（对标 K9）全部 11 个监测字段\",\n      \"issue\": \"全部为「待下一次公开页抓取」，来源和核验时间均为「未抓取」。\",\n      \"verdict\": \"无证据支持，不得输出任何价格、配置、卖点或优劣比较结论。\"\n    },\n    {\n      \"target\": \"BeeCool Bee Pathfinder Step-Thru 的价格 $1,199（原价 $1,999）\",\n      \"issue\": \"这是 2026-09-27 的官网页面价格，距今日 2026-11-17 已约 7 周，促销可能已变化。它也不等于成交价或长期定价。\",\n      \"verdict\": \"只能标注为「2026-09-27 页面价」，不能写成当前价格，需要复核。\"\n    },\n    {\n      \"target\": \"BeeCool 悬挂描述（Full Suspension）\",\n      \"issue\": \"官网标题写 Full Suspension，但规格细项只有可调液压前叉和座管空气避震，没有后轮避震器参数。\",\n      \"verdict\": \"不得写成「全避震」或「后轮避震」，结构对比以规格细项为准。\"\n    },\n    {\n      \"target\": \"BeeCool 性能参数（最高 28mph、续航 82mi、载重 350lb、750W/1100W、92Nm）\",\n      \"issue\": \"均为品牌官方主张，没有第三方验证。\",\n      \"verdict\": \"只能标注为「官方标示」，不得推演真实续航，也不得断言与 EAZION 的性能胜负。\"\n    },\n    {\n      \"target\": \"BeeCool 社媒信号（YouTube 14,594 次观看、39 个赞）\",\n      \"issue\": \"该视频是两款 Pathfinder 的合并介绍，并非 Step-Thru 的专属内容。\",\n      \"verdict\": \"不得作为 Step-Thru 的单品热度或转化证据，只能作为品牌层面的弱信号。\"\n    },\n    {\n      \"target\": \"所有 EAZION 对应字段（K9、N9 PRO）\",\n      \"issue\": \"只有占位文字，没有任何已批准的 EAZION 产品事实。\",\n      \"verdict\": \"不得生成 EAZION 与竞品的差异、优势或劣势结论，需先补充事实并经人工审核。\"\n    }\n  ],\n  \"supported_facts_only\": [\n    \"BeeCool Step-Thru：官网 2026-09-27 核验，页面价 $1,199，原价 $1,999，标示 Save $800。\",\n    \"BeeCool Step-Thru：26×4 胖胎、低跨车架、48V 20Ah、持续 750W/峰值 1100W、双 180mm 液压碟刹。\",\n    \"BeeCool Step-Thru：官网标示 UL 2849 Certified，另有彩色显示屏、可拆电池和后转向灯。\",\n    \"Kingbull Ranger：已加入监测清单，等待下次同步，暂无任何公开信号数据。\"\n  ],\n  \"next_steps\": [\n    \"提供完整的 proposal 和 review_contract 后重新审核。\",\n    \"触发 Kingbull Ranger 公开页抓取，并补充 K9 的 EAZION 已批准事实。\",\n    \"复核 BeeCool 页面价格与促销是否仍有效，并更新核验日期。\",\n    \"补充 N9 PRO 的已批准事实，再做并列比较，且比较须经人工审核。\"\n  ]\n}\n```",
+      "tokens": 4516,
+      "elapsed_ms": 18405
+    }
+  ],
+  "proposal": {
+    "summary": "根据所提供的监测上下文，建议先人工核验并补全竞品证据，再进行对标。Kingbull Ranger 尚无抓取结果；BeeCool 的价格、配置及视频数据仅可作为所记录时点的公开页面信息。",
+    "items": [
+      {
+        "title": "等待 Kingbull Ranger 公开页抓取",
+        "action": "待下次同步后，人工核对 Kingbull Ranger 产品页及抓取时间，再决定是否补充价格、配置和服务等监测字段；与 K9 比较前另行补充已批准的 EAZION 产品事实。",
+        "evidence_limit": "当前记录显示该车型已加入监测清单，但各监测字段均未抓取，不能据此形成产品或价格结论。"
+      },
+      {
+        "title": "复核 BeeCool 页面价格和配置",
+        "action": "人工复核 Bee Pathfinder Step-Thru 的公开产品页，并保留来源及核验时间；对标 N9 PRO 前，仅补充经批准的 EAZION 产品事实。",
+        "evidence_limit": "所提供记录称，2026-09-27 官网页面标价为 1,199 美元、原价 1,999 美元；该页面价格不等于成交价或长期定价。所记录的座管空气避震不得表述为后轮避震，详细配置中没有后轮避震器参数。"
+      },
+      {
+        "title": "审阅 BeeCool 视频信号的归属",
+        "action": "如需采用社媒信号，先人工核对所记录的官方 YouTube 视频页面、观看及点赞数据，并明确视频涉及两款 Pathfinder。",
+        "evidence_limit": "上下文记录的视频为双车型介绍，并非 Step-Thru 专属内容；所记录的 14,594 次观看和 39 个赞仅反映记录时的公开页面数据，不能归因为单一车型的表现。"
+      }
+    ],
+    "evidence_limits": [
+      "本提案仅依据提供的页面上下文，未独立访问或重新核验所列网址。",
+      "缺少已批准的 EAZION 产品事实，不能推断 K9 或 N9 PRO 的价格、配置或竞争优劣。",
+      "没有来源或超出所记录时间范围的结论不得采用；本提案不发布内容，也不覆盖现有记录。"
+    ],
+    "requires_human_adoption": true
+  },
+  "review": null,
+  "adjudication": null,
+  "scope": "read monitored competitor URLs and their newly captured public page excerpts",
+  "write_status": "local_only",
+  "execution": {
+    "source_cache": {
+      "hits": 0,
+      "misses": 6,
+      "requested": 6
+    },
+    "elapsed_ms": 32032,
+    "source_failures": 6
+  },
+  "github": {
+    "status": "github_pushed",
+    "path": "handoffs/runs/2026-11-17/6ae2b7d2-8543-4fcb-bc2e-5baf6926b951.json"
+  }
+}

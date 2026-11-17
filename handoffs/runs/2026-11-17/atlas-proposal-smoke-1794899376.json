@@ -1,0 +1,38 @@
+{
+  "run_id": "atlas-proposal-smoke-1794899376",
+  "kind": "标签库",
+  "agent": "Atlas",
+  "observed_at": "2026-11-17T07:09:46Z",
+  "sources": [],
+  "handoffs": [
+    {
+      "name": "聚合 API 2",
+      "model": "gpt-6.1-terra",
+      "output": "{\n  \"summary\": \"当前上下文未明确选中的车型，且最近已审核话题标签的数据不完整，暂不提出具体标签增删建议。\",\n  \"items\": [\n    {\n      \"title\": \"确认车型和已审核话题标签\",\n      \"action\": \"请人工确认选中的车型，并补充最近已审核通过的话题标签；核对后再提出待人工采用的标签建议。\",\n      \"evidence_limit\": \"提供的标签库包含多个车型，但未标明本次选中车型；已采用创意记录在来源字段处截断，无法据此核验其话题标签或审核状态。\"\n    }\n  ],\n  \"evidence_limits\": [\n    \"仅可依据选中车型的标签集和最近已审核通过的话题标签进行后续核对。\",\n    \"现有搜索词和标签不能单独证明产品规格、价格或其他产品事实。\",\n    \"本建议不发布内容，也不覆盖现有记录。\"\n  ],\n  \"requires_human_adoption\": true\n}",
+      "tokens": 1417,
+      "elapsed_ms": 9879
+    }
+  ],
+  "proposal": {
+    "summary": "当前上下文未明确选中的车型，且最近已审核话题标签的数据不完整，暂不提出具体标签增删建议。",
+    "items": [
+      {
+        "title": "确认车型和已审核话题标签",
+        "action": "请人工确认选中的车型，并补充最近已审核通过的话题标签；核对后再提出待人工采用的标签建议。",
+        "evidence_limit": "提供的标签库包含多个车型，但未标明本次选中车型；已采用创意记录在来源字段处截断，无法据此核验其话题标签或审核状态。"
+      }
+    ],
+    "evidence_limits": [
+      "仅可依据选中车型的标签集和最近已审核通过的话题标签进行后续核对。",
+      "现有搜索词和标签不能单独证明产品规格、价格或其他产品事实。",
+      "本建议不发布内容，也不覆盖现有记录。"
+    ],
+    "requires_human_adoption": true
+  },
+  "scope": "read the selected model tag set and recent approved topic tags only",
+  "write_status": "local_only",
+  "github": {
+    "status": "github_pushed",
+    "path": "handoffs/runs/2026-11-17/atlas-proposal-smoke-1794899376.json"
+  }
+}

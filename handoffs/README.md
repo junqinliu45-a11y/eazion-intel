@@ -1,69 +1,67 @@
 # 多模型情报交接规范
 
-每次运行按一个 `run_id` 生成一份 Markdown 和一份同名 JSON。
+每次运行只生成一份 JSON，以 `run_id` 为唯一标识。
 
 ## 文件位置
 
 ```
-handoffs/YYYY-MM-DD/<run_id>.md
-handoffs/YYYY-MM-DD/<run_id>.json
+handoffs/runs/YYYY-MM-DD/<run_id>.json
 ```
 
-Markdown 供人工和模型阅读。JSON 供网页写入、去重、统计和后续自动化读取。两份文件包含同一个 `run_id`、采集时间和来源 URL。
+JSON 同时供网页、Atlas 和各模型读取。不得为同一运行另写 Markdown 副本。
 
-## 运行阶段
+## 路由规则
 
-| 阶段 | 责任 | 输入 | 输出 |
-|---|---|---|---|
-| 获取 | 平台 API、公开网页、搜索 API | 竞品清单、关键词 | 原始 URL、抓取时间、可见文本、可见指标、HTTP 状态 |
-| 规范化 | GPT 快速模型 | 原始来源 | 去重来源清单、车型或品牌实体、字段缺失说明 |
-| 拆解 | Claude 主模型 | 规范化来源 | 内容机制、受众张力、证据边界 |
-| 质检 | GPT 推理模型 | 前两项输出 | 冲突、无证据主张、是否可进入选题 |
-| 选题 | GPT 主模型 | 已通过质检的证据 | 中英文选题卡、平台与形式、来源引用 |
-| 存档 | 本机运行器 | 全部结构化结果 | Markdown、JSON、GitHub 提交 SHA |
+| 工作 | 最小输入 | 模型协作 |
+|---|---|---|
+| 选题推荐 | 今日公开线索、已批准事实、近 20 条选题 | DeepSeek 发现 → GPT Terra 规范化 → Claude 复核 |
+| 内容日历 | 已采用选题、排期、可比表现 | GPT Terra |
+| 封面工坊 | 已采用选题、已批准事实、封面表现 | GPT Terra → Claude |
+| 爆款灵感 | 被选中的公开视频 URL 与可见文本 | DeepSeek 发现 → Claude 拆解 |
+| Reddit 写作 | 用户中文要点、参考帖、已批准事实 | GPT Terra → Claude |
+| 竞品监测 | 已登记竞品 URL、公开页面文本、历史差异 | GPT Terra → Claude → GPT Sol（只裁决分歧） |
+| 标签库 | 标签库、近期已采用选题标签 | GPT Terra |
 
 ## 原则
 
-- 模型不被当作爬虫。竞品价格、库存、评论、视频指标和帖子正文来自平台 API、合法数据源或公开网页。
-- DeepSeek Web Search 用于低成本发现公开链接。它返回的日期未知结果仍保存，标记为 `date_status: unknown`，不能被称为今日热点。
-- GPT 与 Claude 接收同一份已抓取证据，分别分析，不能自行补全页面或帖子不存在的数据。
-- 有分歧时只把分歧条目交给推理模型裁定，避免每条数据被三个模型重复消耗。
-- 任何模型输出必须带 `source_urls`、`observed_at` 和 `evidence_limit`。缺其中一项不能进入选题库。
+- 模型不是爬虫。价格、库存、评论、帖子指标与正文只来自合法 API、公开页面或已存来源。
+- DeepSeek Web Search 只负责低成本发现公开链接。不能确认日期的结果必须标记 `date_status: "unknown"`，不得称为今日热点。
+- GPT 与 Claude 接收相同、已抓取的证据，不得补造页面或帖子内容。
+- 推理模型只处理冲突和高价值变更，不能给所有记录重复调用。
+- 每个可消费记录必须带 `source_urls`、`observed_at`、`evidence_limit`。缺一项只可保存为待核验，不能进入选题库。
+- 密钥只存在本机，JSON、日志和 GitHub 不保存任何密钥。
 
-## JSON 最小结构
+## 最小 JSON 结构
 
 ```json
 {
   "run_id": "competitor-2026-11-17-001",
-  "kind": "competitor_monitor",
+  "kind": "竞品监测",
+  "agent": "Scout",
   "observed_at": "2026-11-17T00:00:00Z",
+  "scope": "本次读取的最小数据范围",
   "sources": [
     {
       "url": "https://example.com/product",
-      "platform": "website",
-      "observed_at": "2026-11-17T00:00:00Z",
-      "date_status": "known|unknown",
+      "captured_at": "2026-11-17T00:00:00Z",
+      "fetch_status": 200,
+      "title": "公开页面标题",
       "raw_excerpt": "公开页面可见文本",
-      "visible_metrics": {},
-      "fetch_status": 200
+      "evidence_limit": "公开页面文本，发布前仍需人工核验。"
     }
   ],
-  "handoffs": {
-    "normalizer": {"model": "gpt...", "output": {}, "source_urls": []},
-    "analyst": {"model": "claude...", "output": {}, "source_urls": []},
-    "reviewer": {"model": "gpt...", "verdict": "pass|hold", "blocking_gaps": []}
-  },
-  "write_status": "local_only|github_pushed",
-  "github_commit": null
+  "handoffs": [
+    {
+      "model": "gpt-6.1-terra",
+      "tokens": 0,
+      "elapsed_ms": 0,
+      "output": {}
+    }
+  ],
+  "github": {
+    "status": "local_only|github_pushed"
+  }
 }
 ```
 
-## 竞品监测的最低有效数据
-
-1. 产品页和价格页
-2. 品牌账号或公开帖子 URL
-3. 页面抓取时间
-4. 价格、规格、促销、评论数等可见字段
-5. 无法取得的字段必须写为缺失，不能由模型推测
-
-网页只能消费 `reviewer.verdict = pass` 的记录。所有原始来源和 Markdown 仍保留，供之后的 GPT、Claude、DeepSeek 复查。
+网页只能消费已通过本页数据校验的字段。原始 URL 和证据边界必须随 JSON 保留，供后续 GPT、Claude、DeepSeek 复查。

@@ -1,0 +1,18 @@
+{
+  "run_id": "atlas-contract-smoke-1794898728",
+  "kind": "标签库",
+  "agent": "Atlas",
+  "observed_at": "2026-11-17T06:59:03Z",
+  "sources": [],
+  "handoffs": [
+    {
+      "name": "聚合 API 2",
+      "model": "gpt-6.1-terra",
+      "output": "## 审核范围\n\n依据提供的四个车型标签库，以及唯一可见的已采用选题标签进行审核。输入在该选题的 `topicBrief` 字段处截断，因此以下结论仅适用于可见记录。\n\n## 重复标签\n\n- **各车型内部**：未发现同一车型的标签列表中存在完全相同的重复项。\n- **跨车型重复**：以下是不同车型共用的标签，并不自动构成错误：\n\n| 共用车型 | 标签 |\n|---|---|\n| N9 PRO、K9、D9、T6 | `#EAZION` |\n| N9 PRO、K9 | `#fatbike` |\n| N9 PRO、D9 | `#ebike`、`#electricbike`、`#trailriding`、`#weekendadventure`、`#bikecommute` |\n| N9 PRO、T6 | `#groceryrun`、`#errands`、`#rvlife` |\n\n以上仅按标签文本完全相同核对；未将含义相近但写法不同的标签判定为重复。\n\n## 车型覆盖\n\n- **标签库**：N9 PRO、K9、D9、T6 均有独立标签集，并各有车型品牌标签。\n- **可见已采用选题**：仅有一条 K9 选题。其现有四个标签均在 K9 标签库中，但**缺少车型标签 `#K9`**。\n- 可见记录中没有 N9 PRO、D9、T6 的已采用选题，无法据此判断这些车型是否确实缺少选题覆盖。\n\n## 最小修复清单\n\n1. 为 K9 已采用选题补充 `#K9`；其余现有标签无需因本次核对而删除。\n2. 不对跨车型共用标签作去重处理；现有记录不足以证明这些共用标签是错误。\n3. 如需完成所有已采用选题的覆盖审核，需补充截断后的完整记录。",
+      "tokens": 1778,
+      "elapsed_ms": 14872
+    }
+  ],
+  "scope": "read the selected model tag set and recent approved topic tags only",
+  "write_status": "local_only"
+}

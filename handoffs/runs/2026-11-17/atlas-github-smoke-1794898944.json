@@ -14,5 +14,9 @@
     }
   ],
   "scope": "read the selected model tag set and recent approved topic tags only",
-  "write_status": "local_only"
+  "write_status": "local_only",
+  "github": {
+    "status": "github_pushed",
+    "path": "handoffs/runs/2026-11-17/atlas-github-smoke-1794898944.json"
+  }
 }

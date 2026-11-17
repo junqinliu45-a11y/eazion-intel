@@ -1,0 +1,55 @@
+{
+  "run_id": "atlas-smoke-1794897205",
+  "kind": "标签库",
+  "agent": "Atlas",
+  "observed_at": "2026-11-17T06:34:03Z",
+  "sources": [
+    {
+      "url": "https://shop.tiktok.com/us/pdp/electric-mountain-bike-26-inch-apyear-500w-motor-25mph-speed/1731291640254861447",
+      "captured_at": "2026-11-17T06:33:54Z",
+      "fetch_status": "rejected",
+      "evidence_limit": "URL is not a public HTTPS target."
+    },
+    {
+      "url": "https://www.prod.instagram.com/reel/DIg22lGsr-1/",
+      "captured_at": "2026-11-17T06:33:54Z",
+      "fetch_status": "rejected",
+      "evidence_limit": "URL is not a public HTTPS target."
+    },
+    {
+      "url": "https://www.instagram.com/p/CPlK5MaB6V1/",
+      "captured_at": "2026-11-17T06:33:54Z",
+      "fetch_status": "rejected",
+      "evidence_limit": "URL is not a public HTTPS target."
+    },
+    {
+      "url": "https://shop.tiktok.com/us/pdp/1729916870778196230",
+      "captured_at": "2026-11-17T06:33:54Z",
+      "fetch_status": "rejected",
+      "evidence_limit": "URL is not a public HTTPS target."
+    },
+    {
+      "url": "https://www.facebook.com/groups/ebikeowners2015/posts/1739219823083871/?ref=fb_answers",
+      "captured_at": "2026-11-17T06:33:54Z",
+      "fetch_status": "rejected",
+      "evidence_limit": "URL is not a public HTTPS target."
+    },
+    {
+      "url": "https://m.youtube.com/watch?v=3gEPc63bULw&pp=0gcJCSwMAYcqIYzv&ra=m",
+      "captured_at": "2026-11-17T06:33:55Z",
+      "fetch_status": "rejected",
+      "evidence_limit": "URL is not a public HTTPS target."
+    }
+  ],
+  "handoffs": [
+    {
+      "name": "聚合 API 2",
+      "model": "gpt-6.1-terra",
+      "output": "收到的资料包含 N9 PRO、K9、D9、T6 的标签库，但**没有明确指定所选车型**；`recent_ideas` 内容也在第一条记录中截断，无法确认其是否为已批准话题或读取完整标签。\n\n目前也未提供公开搜索结果，因此无法依据来源对潜在线索排名。请提供：\n\n1. 所选车型；\n2. 完整的近期已批准话题及其标签；\n3. 如需线索排名，请提供对应的公开搜索结果，包括原始链接和日期（如有）。",
+      "tokens": 1311,
+      "elapsed_ms": 8011
+    }
+  ],
+  "scope": "read the selected model tag set and recent approved topic tags only",
+  "write_status": "local_only"
+}

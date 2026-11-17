@@ -1,0 +1,18 @@
+{
+  "run_id": "atlas-github-smoke-1794898944",
+  "kind": "标签库",
+  "agent": "Atlas",
+  "observed_at": "2026-11-17T07:02:53Z",
+  "sources": [],
+  "handoffs": [
+    {
+      "name": "聚合 API 2",
+      "model": "gpt-6.1-terra",
+      "output": "## 审计范围\n\n依据提供的四个车型标签集，以及可见的 **1 条已采用选题 K9 标签**进行核对。该选题记录在 `topicBrief` 处截断，因此以下结论不代表其他未展示的选题或字段。\n\n## 重复标签\n\n四个车型各自的 `brand`、`niche`、`scene` 和 `searchTerms` 内，未发现完全相同的重复项。跨车型的完全相同标签如下：\n\n| 重复标签 | 涉及车型 |\n|---|---|\n| `#EAZION` | N9 PRO、K9、D9、T6 |\n| `#fatbike` | N9 PRO、K9 |\n| `#ebike`、`#electricbike` | N9 PRO、D9 |\n| `#trailriding`、`#weekendadventure`、`#bikecommute` | N9 PRO、D9 |\n| `#groceryrun`、`#errands`、`#rvlife` | N9 PRO、T6 |\n\n这些是跨车型复用，**不等于错误**；现有记录不足以支持删除它们。\n\n## 车型覆盖与选题标签\n\n- 标签库本身覆盖 **N9 PRO、K9、D9、T6** 四个车型，每个车型均有品牌、细分、场景和搜索词记录。\n- 可见的 K9 已采用选题使用了 `#EAZION`、`#streetebike`、`#mopedstyleebike`、`#cityride`，四项均存在于 K9 标签集中，未发现库外标签。\n- 该选题**没有使用明确的车型标签** `#K9` 或 `#K9StreetLab`；虽然记录的 `vehicle` 字段为 K9，标签本身缺少车型标识。\n- 在提供的可见选题中，没有 N9 PRO、D9、T6 的已采用记录，因而无法核验这三个车型的已采用选题标签覆盖；不能据此断言它们实际缺少选题。\n\n## 最小修复清单\n\n1. **在该 K9 选题上补充 `#K9`**，使标签本身包含明确车型标识。\n2. **暂不删除跨车型重复标签**；它们均是不同车型标签集中的复用。\n3. 如需完成其余车型的选题覆盖审计，需提供 N9 PRO、D9、T6 的近期已采用选题记录；目前无需据缺失记录推断或补造标签。",
+      "tokens": 1888,
+      "elapsed_ms": 28689
+    }
+  ],
+  "scope": "read the selected model tag set and recent approved topic tags only",
+  "write_status": "local_only"
+}

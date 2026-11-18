@@ -1,0 +1,210 @@
+{
+  "run_id": "7da257b6-29d7-4132-8d14-171a05d1b544",
+  "kind": "竞品监测",
+  "agent": "Scout",
+  "observed_at": "2026-11-18T06:10:36Z",
+  "sources": [
+    {
+      "url": "https://www.kingbullbike.com/products/kingbull-ranger-vintage-off-road-electric-bike",
+      "captured_at": "2026-11-18T06:10:25Z",
+      "fetch_status": 429,
+      "evidence_limit": "Public page returned an HTTP error.",
+      "fetch_attempts": 1,
+      "cache": "miss"
+    },
+    {
+      "url": "https://beecoolbikes.com/products/bee-pathfinder-step-thru",
+      "captured_at": "2026-11-18T06:10:25Z",
+      "fetch_status": 429,
+      "evidence_limit": "Public page returned an HTTP error.",
+      "fetch_attempts": 1,
+      "cache": "miss"
+    },
+    {
+      "url": "https://www.mokwheel.com/products/obsidian-st-2-0",
+      "captured_at": "2026-11-18T06:10:25Z",
+      "fetch_status": 429,
+      "evidence_limit": "Public page returned an HTTP error.",
+      "fetch_attempts": 1,
+      "cache": "miss"
+    },
+    {
+      "url": "https://gotrax.com/products/gotrax-ranger",
+      "captured_at": "2026-11-18T06:10:25Z",
+      "fetch_status": 429,
+      "evidence_limit": "Public page returned an HTTP error.",
+      "fetch_attempts": 1,
+      "cache": "miss"
+    },
+    {
+      "url": "https://www.cycrown.com/collections/best-sellers/products/cychunter-s-moped-style-ebike",
+      "captured_at": "2026-11-18T06:10:26Z",
+      "fetch_status": 429,
+      "evidence_limit": "Public page returned an HTTP error.",
+      "fetch_attempts": 1,
+      "cache": "miss"
+    },
+    {
+      "url": "https://www.puckipuppy.com/products/alaskan",
+      "captured_at": "2026-11-18T06:10:26Z",
+      "fetch_status": 429,
+      "evidence_limit": "Public page returned an HTTP error.",
+      "fetch_attempts": 1,
+      "cache": "miss"
+    },
+    {
+      "url": "https://www.mooncool.com/products/tk2-electric-trike",
+      "captured_at": "2026-11-18T06:10:26Z",
+      "fetch_status": 429,
+      "evidence_limit": "Public page returned an HTTP error.",
+      "fetch_attempts": 1,
+      "cache": "miss"
+    },
+    {
+      "url": "https://actbestbike.com/products/triker-folding-3-wheels-electric-bike?variant=51608687444250&country=US&currency=USD&utm_medium=product_sync&utm_source=google&utm_content=sag_organic&utm_campaign=sag_organic&gad_source=1&gad_campaignid=23779565730&gbraid=0AAAAAqLRiDrYHC4IvQBwscXjZj2kFxrsi&gclid=Cj0KCQjwjvfSBhDpARIsAEiOpStj7ig6v9m0vLKEbBJMWeo4Na2hytFYCwhZud7UuYDhFlOwkqVh3hAaAuHHEALw_wcB",
+      "captured_at": "2026-11-18T06:10:26Z",
+      "fetch_status": 429,
+      "evidence_limit": "Public page returned an HTTP error.",
+      "fetch_attempts": 1,
+      "cache": "miss"
+    },
+    {
+      "url": "https://aipasbike.com/products/a8-pro-trekker-etrike",
+      "captured_at": "2026-11-18T06:10:27Z",
+      "fetch_status": 429,
+      "evidence_limit": "Public page returned an HTTP error.",
+      "fetch_attempts": 1,
+      "cache": "miss"
+    },
+    {
+      "url": "https://www.qlifebike.com/products/triker-2-0-folding-3-wheels-electric-bike",
+      "captured_at": "2026-11-18T06:10:28Z",
+      "fetch_status": 429,
+      "evidence_limit": "Public page returned an HTTP error.",
+      "fetch_attempts": 1,
+      "cache": "miss"
+    },
+    {
+      "url": "https://eskute.com/collections/3-wheel-ebike/products/t300-folding-electric-trike",
+      "captured_at": "2026-11-18T06:10:28Z",
+      "fetch_status": 429,
+      "evidence_limit": "Public page returned an HTTP error.",
+      "fetch_attempts": 1,
+      "cache": "miss"
+    },
+    {
+      "url": "https://revv1.ride1up.com/product/revv-1/",
+      "captured_at": "2026-11-18T06:10:28Z",
+      "fetch_status": 403,
+      "evidence_limit": "Public page returned an HTTP error.",
+      "fetch_attempts": 1,
+      "cache": "miss"
+    },
+    {
+      "url": "https://tstebike.com/products/tst-r002-20-1500w-full-suspension-moped-style-electric-bike",
+      "captured_at": "2026-11-18T06:10:29Z",
+      "fetch_status": 429,
+      "evidence_limit": "Public page returned an HTTP error.",
+      "fetch_attempts": 1,
+      "cache": "miss"
+    },
+    {
+      "url": "https://www.qlifebike.com/products/spark-moped-style-e-bike",
+      "captured_at": "2026-11-18T06:10:30Z",
+      "fetch_status": 429,
+      "evidence_limit": "Public page returned an HTTP error.",
+      "fetch_attempts": 1,
+      "cache": "miss"
+    },
+    {
+      "url": "https://eskute.com/collections/fat-tire-electric-bike/products/eskute%C2%AE-c300r-st-all-terrain-electric-bike",
+      "captured_at": "2026-11-18T06:10:30Z",
+      "fetch_status": 429,
+      "evidence_limit": "Public page returned an HTTP error.",
+      "fetch_attempts": 1,
+      "cache": "miss"
+    },
+    {
+      "url": "https://aipasbike.com/products/aipas-m2-pro-xterrain-ebike",
+      "captured_at": "2026-11-18T06:10:30Z",
+      "fetch_status": 429,
+      "evidence_limit": "Public page returned an HTTP error.",
+      "fetch_attempts": 1,
+      "cache": "miss"
+    },
+    {
+      "url": "https://www.jasionbike.com/products/thunder-pro-st",
+      "captured_at": "2026-11-18T06:10:30Z",
+      "fetch_status": 429,
+      "evidence_limit": "Public page returned an HTTP error.",
+      "fetch_attempts": 1,
+      "cache": "miss"
+    },
+    {
+      "url": "https://www.cycrown.com/products/cycrun-pro-vintage-moped-ebike",
+      "captured_at": "2026-11-18T06:10:31Z",
+      "fetch_status": 429,
+      "evidence_limit": "Public page returned an HTTP error.",
+      "fetch_attempts": 1,
+      "cache": "miss"
+    },
+    {
+      "url": "https://www.jasionbike.com/products/retrovolt-pro",
+      "captured_at": "2026-11-18T06:10:35Z",
+      "fetch_status": 429,
+      "evidence_limit": "Public page returned an HTTP error.",
+      "fetch_attempts": 1,
+      "cache": "miss"
+    },
+    {
+      "url": "https://www.qlifebike.com/products/racer-ultra-step-over-full-suspension-mountain-ebike",
+      "captured_at": "2026-11-18T06:10:32Z",
+      "fetch_status": 429,
+      "evidence_limit": "Public page returned an HTTP error.",
+      "fetch_attempts": 1,
+      "cache": "miss"
+    },
+    {
+      "url": "https://eskute.com/products/eskute%C2%AE-m200f-27-5-mountain-electric-bike",
+      "captured_at": "2026-11-18T06:10:32Z",
+      "fetch_status": 429,
+      "evidence_limit": "Public page returned an HTTP error.",
+      "fetch_attempts": 1,
+      "cache": "miss"
+    }
+  ],
+  "handoffs": [],
+  "proposal": {
+    "summary": "本轮未取得可核验的竞品页面文本，未生成变化结论、未写入任何竞品卡，也没有调用模型。",
+    "items": [],
+    "evidence_limits": [
+      "Public page returned an HTTP error."
+    ],
+    "requires_human_adoption": false,
+    "blocked": {
+      "status_counts": {
+        "429": 20,
+        "403": 1
+      },
+      "next_retry": "请在目标站允许访问后重试；429 会在 5 分钟后自动重新抓取。"
+    }
+  },
+  "review": null,
+  "adjudication": null,
+  "scope": "read monitored competitor URLs and their newly captured public page excerpts",
+  "write_status": "blocked_no_public_source",
+  "execution": {
+    "source_cache": {
+      "hits": 0,
+      "misses": 21,
+      "requested": 21
+    },
+    "elapsed_ms": 10390,
+    "source_failures": 21,
+    "verified_sources": 0
+  },
+  "github": {
+    "status": "github_pushed",
+    "path": "handoffs/runs/2026-11-18/7da257b6-29d7-4132-8d14-171a05d1b544.json"
+  }
+}

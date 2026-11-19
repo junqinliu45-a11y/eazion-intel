@@ -1,0 +1,143 @@
+{
+  "run_id": "b6cdf394-039d-48c3-bc0e-935420b94294",
+  "kind": "选题推荐",
+  "agent": "Spark",
+  "observed_at": "2026-11-19T06:34:41Z",
+  "sources": [
+    {
+      "url": "https://www.reddit.com/r/ebikes/comments/1xgm0wz/buying_two_ebikes_buy_now_or_wait_for_black_friday/",
+      "captured_at": "2026-11-19T06:34:06Z",
+      "fetch_status": 403,
+      "evidence_limit": "Public page returned an HTTP error.",
+      "fetch_attempts": 1,
+      "retry_after_seconds": 0,
+      "cache": "miss"
+    },
+    {
+      "url": "https://www.reddit.com/r/ebikes/comments/1xo3qn4/do_you_still_ride_ebike_in_cold_seasons_autumn/",
+      "captured_at": "2026-11-19T06:34:09Z",
+      "fetch_status": 403,
+      "evidence_limit": "Public page returned an HTTP error.",
+      "fetch_attempts": 1,
+      "retry_after_seconds": 0,
+      "cache": "miss"
+    },
+    {
+      "url": "https://www.reddit.com/r/ebikes/comments/1xnavny/do_you_ride_your_ebike_every_day_or_mainly_on/",
+      "captured_at": "2026-11-19T06:34:12Z",
+      "fetch_status": 403,
+      "evidence_limit": "Public page returned an HTTP error.",
+      "fetch_attempts": 1,
+      "retry_after_seconds": 0,
+      "cache": "miss"
+    },
+    {
+      "url": "https://www.timeanddate.com/calendar/custom.html?country=1&df=1&display=0&hol=1175929&holm=1&month=9&months=16&typ=2&year=2026",
+      "captured_at": "2026-11-19T06:34:06Z",
+      "fetch_status": 200,
+      "title": "September 2026–December 2027 Calendar – United States",
+      "description": "United States September 2026–December 2027 – Customized Calendar with American holidays. Monthly calendar from the month September in year 2026 to the month December in 2027. Calendars – online and print friendly – for any year and month",
+      "raw_excerpt": "September 2026–December 2027 Calendar – United States Sign in News News Home Astronomy News Time Zone News Newsletter Live events World Clock Main World Clock Extended World Clock Personal World Clock Clock for Your Site UTC Time Time Zones Time Zones Home Time Zone Converter Meeting Planner Event Time Announcer Time Zone Map Time Zone Abbreviations Daylight Saving Time Time Changes Worldwide Time Difference Time Zone News Calendar Calendars Home Calendar 2026 Calendar 2027 Monthly Calendar Printable Calendar (PDF) Add Your Own Calendar Events Calendar Creator Holidays Worldwide On This Day in History Fun Holidays Months of the Year Days of the Week About Leap Years Calendar & Holiday News Weather Worldwide Local Weather 2-Week Forecast Hour-by-Hour Past Week Climate Sun, Moon & Space Sun & Moon Home Sun Calculator Moon Calculator Moon Phases Night Sky Meteor Showers Day and Night Map Moon Light World Map Eclipses Live Streams Seasons Astronomy News Timers Timers Home Stopwatch Timer Countdown to Any Date Thanksgiving Countdown Black Friday Countdown New Year Countdown Countdown for Your Site Calculators Calculators Home Date to Date Calculator (duration) Business Date to Date (exclude holidays) Date Calculator (add / subtract) Business Date (exclude holidays) Weekday Calculator Week Number Calculator Roman Numeral Converter Alternative Age Calculator Date Pattern Calculator Distance Calculator My Account My Account My Location My Units My Events My World Clock My Privacy Paid Services Sign in Register Calendar 2026 Calendar 2027 Monthly Calendar PDF Calendar Add Events Calendar Creator Holidays On This Day Fun Holidays Months Weekdays Leap Years Calendar & Holiday News Home Calendar Create calendar: Year: Country: Australia Canada India Ireland New Zealand United Kingdom United States Afghanistan Albania Algeria American Samoa Andorra Angola Anguilla Antigua and Barbuda Argentina Armenia Aruba Australia Austria Azerbaijan Bahamas Bahrain Bangladesh Barbados Belarus Belgium Belize Benin Bermuda Bhutan Bolivia Bosnia and Herzegovina Botswana Brazil British Virgin Islands Brunei Bulgaria Burkina Faso Burundi Cambodia Cameroon Canada Cape Verde Cayman Islands Central African Republic Chad Chile China Colombia Comoros Congo DR Cook Islands Costa Rica Croatia Cuba Curaçao Cyprus Czechia Denmark Djibouti Dominica Dominican Republic Ecuador Egypt El Salvador Equatorial Guinea Eritrea Estonia Ethiopia Falkland Islands Faroe Islands Fiji Finland France French Guiana French Polynesia Gabon Gambia Georgia Germany Ghana Gibraltar Greece Greenland Gregorian calendar Grenada Guadeloupe Guam Guatemala Guernsey Guinea Guinea-Bissau Guyana Haiti Honduras Hong Kong Hungary Iceland India Indonesia Iran Iraq Ireland Isle of Man Israel Italy Ivory Coast Jamaica Japan Jersey Jordan Julian calendar Kazakhstan Kenya Kiribati Kosovo Kuwait Kyrgyzstan La Réunion Laos Latvia Lebanon Lesotho Liberia Libya Liechtenstein Lithuania Luxembourg Macau Madagascar Malawi Malaysia Maldives Mali Malta Marshall Islands Martinique Mauritania Mauritius Mayotte Mexico Micronesia Moldova Monaco Mongolia Montenegro Montserrat Morocco Mozambique Myanmar Namibia Nauru Nepal New Caledonia New Zealand Nicaragua Niger Nigeria Norfolk Island North Korea North Macedonia Northern Mariana Islands Norway Oman Pakistan Palau Panama Papua New Guinea Paraguay Peru Philippines Poland Portugal Puerto Rico Qatar Republic of the Congo Romania Russia Rwanda Saint Barthélemy Saint Helena Saint Kitts and Nevis Saint Lucia Saint Martin Saint Pierre and Miquelon Saint Vincent and the Grenadines Samoa San Marino São Tomé and Príncipe Saudi Arabia Senegal Serbia Seychelles Sierra Leone Singapore Sint Maarten Slovakia Slovenia Solomon Islands Somalia South Africa South Korea South Sudan Spain Sri Lanka Sudan Suriname Swaziland Sweden Switzerland Syria Taiwan Tajikistan Tanzania Thailand The Netherlands Timor-Leste Togo Tonga Trinidad and Tobago Tunisia Turkey Turkmenistan Turks and Caicos Islan",
+      "content_ready": true,
+      "evidence_limit": "Public page text only. Prices, specs, reviews and claims require human verification before publication.",
+      "fetch_attempts": 1,
+      "cache": "miss"
+    },
+    {
+      "url": "https://higgsfield.ai/effects",
+      "captured_at": "2026-11-19T06:34:08Z",
+      "fetch_status": 200,
+      "title": "Higgsfield Visual Effects — AI Video Effects | Higgsfield",
+      "description": "Explore cinematic AI visual effects from Higgsfield. Choose an effect, add your media, and create polished, share-ready videos in seconds.",
+      "raw_excerpt": "Higgsfield Visual Effects — AI Video Effects | Higgsfield Higgsfield Explore Image Video Audio MCP API Cinema Studio Genjutsu Top Short Drama New Miracle Soon Contests Shorts New Ads Studio New GPU New Playable Supercomputer Community Academy Plugins Canvas Enterprise Pricing Login Sign up Higgsfield Fresh drops Drops Explore Image Video Audio MCP Agentic Studios Community Contests Learn More Enterprise Pricing Login Sign up Now in ChatGPT Visual Effects Floating fall Studio slide Eyes in Wild ride Smash and grab Incline High flip Street colossus Cutout Selfception Act natural World morphing Lacewalker Burning man Melting boarding pass Monster dab Floating fall Lidar transition Architecture wave Clones Scrapbook collage Stop world Agamemnon new Earth zoom Fallen angel new Bullet time new Comic Cyclope new Infinite clones Frozen in motion Cutout Infinite clones Eyes in Vanish Particles Mighty fighter Windows Canvas Pigeons new Fairytale castle Tracking Superstar Pearl earring new LSD Vanish Skatedog new Blue depth Palette Moonwalk Floating fall",
+      "content_ready": true,
+      "evidence_limit": "Public page text only. Prices, specs, reviews and claims require human verification before publication.",
+      "fetch_attempts": 1,
+      "cache": "miss"
+    },
+    {
+      "url": "https://shop.tiktok.com/us/pdp/electric-mountain-bike-26-inch-apyear-500w-motor-25mph-speed/1731291640254861447",
+      "captured_at": "2026-11-19T06:34:10Z",
+      "fetch_status": 200,
+      "title": "26 - TikTok Shop",
+      "description": "Experience powerful performance with this 26-inch adult electric mountain bike featuring a 1500W motor, up to 25MPH top speed, and a 40-mile range, ideal for commuting and outdoor adventures.",
+      "raw_excerpt": "26 - TikTok Shop Categories Categories Orders Orders Sell Sell Customer support Customer support More More Log in Shop Sell About Customer support Legal © 2026 TikTok Categories Beauty & Personal Care Hand & Foot Care Eye & Ear Care Personal Care Appliances Makeup Skincare Haircare & Styling Nasal & Oral Care Bath & Body Care Fragrance Special Personal Care Men's Care Feminine Care Womenswear & Underwear Women's Underwear Women's Suits & Sets Women's Dresses Women's Tops Women's Sleepwear & Loungewear Women's Bottoms Women's Special Clothing Menswear & Underwear Men's Tops Men's Bottoms Men's Suits & Sets Men's Underwear & Socks Men's Sleepwear & Loungewear Men's Special Occasion Clothing Phones & Electronics Mobile Phone Accessories Audio & Video Smart & Wearable Devices Cameras & Photography Universal Accessories Gaming & Consoles Phones & Tablets Tablet & Computer Accessories Refurbished Electronics Education Devices Smart & Wearable Devices Fashion Accessories Eyewear Hair Accessories Costume Jewelry & Accessories Hair Extensions & Wigs Clothes Accessories Fashion Watches & Accessories Dressmaking Fabrics Wedding Accessories Collectibles Trading Cards & Accessories Sports Collectibles Entertainment Cultural Items Home Supplies Home Care Supplies Bathroom Supplies Home Organizers Home Decor Festive & Party Supplies Laundry Tools & Accessories Miscellaneous Home Kitchenware Drinkware Kitchen Utensils & Gadgets Bakeware Kitchen Knives Cookware Bar & Wine Utensils Cutlery & Tableware Barbecue Tea & Coffeeware Shoes Shoe Accessories Women's Shoes Men's Shoes Sports & Outdoor Sports & Outdoor Accessories Sport & Outdoor Clothing Fitness Swimwear, Surfwear & Wetsuits Sports Footwear Camping & Hiking Ball Sports Water Sports Leisure & Outdoor Recreation Equipment Winter Sports Fan Shop Lawn Games Luggage & Bags Women's Bags Men's Bags Functional Bags Luggage & Travel Bags Bag Accessories Toys & Hobbies Classic & Novelty Toys Dolls & Stuffed Toys Games & Puzzles Sports & Outdoor Play Educational Toys DIY Electric & Remote Control Toys Musical Instruments & Accessories Automotive & Motorcycle Car Interior Accessories Car Washing & Maintenance Car Repair Tools Car Electronics Car Lights Car Exterior Accessories Motorcycle Accessories Quads, Motorhomes & Boats Auto Replacement Parts Motorcycle Parts Kids' Fashion Girls' Footwear Boys' Clothes Girls' Clothes Kids' Fashion Accessories Boys' Footwear Computers & Office Equipment Office Stationery & Supplies Data Storage & Software Computer Accessories Office Equipment Desktop & Laptop Components Network Components Desktop Computers, Laptops & Tablets Baby & Maternity Baby Care & Health Baby Clothing & Shoes Baby Furniture Maternity Supplies Baby Toys Baby Safety Baby Travel Gear Baby Fashion Accessories Nursing & Feeding Tools & Hardware Measuring Tools Power Tools Garden Tools Hardware Soldering Equipment Hand Tools Pumps & Plumbing Tool Organizers Textiles & Soft Furnishings Bedding and Linens Household Textiles Fabrics & Sewing Supplies Pet Supplies Dog & Cat Grooming Dog & Cat Litter Dog & Cat Accessories Fish & Aquatic Supplies Dog & Cat Healthcare Small Animal Supplies Dog & Cat Clothing Dog & Cat Food Farm Animal & Poultry Supplies Dog & Cat Furniture Bird Supplies Reptile & Amphibian Supplies Home Improvement Bathroom Fixtures Garden Supplies Lights & Lighting Building Supplies Kitchen Fixtures Electrical Equipment & Supplies Security & Safety Smart Home Systems Solar & Wind Power Food & Beverages Pantry Food Drinks Snacks Staples & Cooking Essentials Baking Milk & Dairy Fresh & Frozen Food Beer, Wine & Spirits Modest Fashion Hijabs Women's Islamic Clothing Men's Islamic Clothing Islamic Accessories Prayer Attire & Equipment Islamic Sportswear Outerwear Kids' Islamic Clothing Umroh Equipment Books, Magazines & Audio Humanities & Social Sciences Lifestyle & Hobbies Literature & Art Education & Schooling Children's & Infants' Books Economics & Management Science & Technology Magazi",
+      "content_ready": true,
+      "evidence_limit": "Public page text only. Prices, specs, reviews and claims require human verification before publication.",
+      "fetch_attempts": 1,
+      "cache": "miss"
+    }
+  ],
+  "handoffs": [
+    {
+      "name": "聚合 API 2",
+      "model": "gpt-6.1-terra",
+      "output": "{\n  \"summary\": \"建议制作 1 条以骑行决策为主题的原创 D9 短视频，供人工评审。已核验的公开信号是近期存在关于日常或周末骑行的 Reddit 讨论；这只能作为选题背景，不能证明相关内容正在流行。观众问题与创意效果均为待验证假设。\",\n  \"items\": [\n    {\n      \"title\": \"Where Would Your First Ride Take You?\",\n      \"title_zh\": \"你的第一程会骑去哪里？\",\n      \"vehicle\": \"D9\",\n      \"platform\": \"Instagram Reels\",\n      \"format\": \"竖屏短视频\",\n      \"duration\": \"15–20 秒\",\n      \"audience\": \"正在考虑电助力自行车、但尚未想好会把它用于什么日常行程的人\",\n      \"action\": \"以选择题开场：画面出现一辆静止的 D9，字幕与旁白同步问：“Where would your first ride take you?” 随后用三个地点卡片引导观众在评论区选择或补充自己的目的地。\",\n      \"description\": \"原创互动假设：用“第一程去哪儿”替代参数介绍，让观众把 D9 放进自己的生活场景。观众可能提出的问题是“如果我有一辆车，我会先骑去哪里？”；这不是已被研究直接证实的受众需求。\",\n      \"why_worth\": \"目标是获得具体目的地评论，帮助后续人工判断哪些生活场景值得进一步制作。可测量假设：发布后 7 天内，至少 5% 的触达账号留下包含具体目的地的评论；以平台触达人数和人工统计的有效评论数计算，不将目标当作预期结果。\",\n      \"production_plan\": \"0–3 秒：固定镜头拍摄静止的 D9，叠加开场问题；3–10 秒：依次切换咖啡店、工作地点、附近公园三张实拍或明确授权的地点卡片，每张约 2 秒，不暗示车辆实际到达过这些地点；10–15 秒：回到 D9 静态细节，字幕显示“Coffee, work, park—or somewhere else?”；15–20 秒：显示“Tell us your first stop.”。视觉采用简洁地点标签与自然光；声音使用轻快的授权器乐，旁白可选。产品仅作为选择题中的具体车型呈现，不添加性能、价格或使用效果声明。\",\n      \"growth_role\": \"产品冲动\",\n      \"evidence_level\": \"C · 原创假设\",\n      \"evidence_limit\": \"已核验信号仅为 2026-11-10 检查过一条关于日常或周末骑行的 Reddit 讨论：https://www.reddit.com/r/ebikes/comments/1xnavny/do_you_ride_your_ebike_every_day_or_mainly_on/ 。未提供帖子具体内容、互动数据或 D9 产品资料；不能据此声称受众偏好、热门趋势或产品能力。5% 是待检验目标，不是历史基准或预测。\",\n      \"tags\": \"D9 InstagramReels 互动提问 原创假设\"\n    }\n  ],\n  \"evidence_limits\": [\n    \"资料中列出的近期选题包括黑五等待、低温骑行、单车旅行、礼物及 AI 视觉方向；本建议不将这些标题视为已验证的表现案例。\",\n    \"公开研究记录提供了来源及检查日期，但未提供帖子正文和互动数据；不得推断讨论规模、情绪或趋势强度。\",\n    \"未提供经批准的产品性能、价格或效果事实；拍摄与文案不得自行补充。\",\n    \"本次仅输出建议，不发布内容或覆盖既有记录。\"\n  ],\n  \"requires_human_adoption\": true\n}",
+      "tokens": 2198,
+      "elapsed_ms": 19962
+    }
+  ],
+  "proposal": {
+    "summary": "建议制作 1 条以骑行决策为主题的原创 D9 短视频，供人工评审。已核验的公开信号是近期存在关于日常或周末骑行的 Reddit 讨论；这只能作为选题背景，不能证明相关内容正在流行。观众问题与创意效果均为待验证假设。",
+    "items": [
+      {
+        "title": "Where Would Your First Ride Take You?",
+        "title_zh": "你的第一程会骑去哪里？",
+        "vehicle": "D9",
+        "platform": "Instagram Reels",
+        "format": "竖屏短视频",
+        "duration": "15–20 秒",
+        "audience": "正在考虑电助力自行车、但尚未想好会把它用于什么日常行程的人",
+        "action": "以选择题开场：画面出现一辆静止的 D9，字幕与旁白同步问：“Where would your first ride take you?” 随后用三个地点卡片引导观众在评论区选择或补充自己的目的地。",
+        "description": "原创互动假设：用“第一程去哪儿”替代参数介绍，让观众把 D9 放进自己的生活场景。观众可能提出的问题是“如果我有一辆车，我会先骑去哪里？”；这不是已被研究直接证实的受众需求。",
+        "why_worth": "目标是获得具体目的地评论，帮助后续人工判断哪些生活场景值得进一步制作。可测量假设：发布后 7 天内，至少 5% 的触达账号留下包含具体目的地的评论；以平台触达人数和人工统计的有效评论数计算，不将目标当作预期结果。",
+        "production_plan": "0–3 秒：固定镜头拍摄静止的 D9，叠加开场问题；3–10 秒：依次切换咖啡店、工作地点、附近公园三张实拍或明确授权的地点卡片，每张约 2 秒，不暗示车辆实际到达过这些地点；10–15 秒：回到 D9 静态细节，字幕显示“Coffee, work, park—or somewhere else?”；15–20 秒：显示“Tell us your first stop.”。视觉采用简洁地点标签与自然光；声音使用轻快的授权器乐，旁白可选。产品仅作为选择题中的具体车型呈现，不添加性能、价格或使用效果声明。",
+        "growth_role": "产品冲动",
+        "evidence_level": "C · 原创假设",
+        "evidence_limit": "已核验信号仅为 2026-11-10 检查过一条关于日常或周末骑行的 Reddit 讨论：https://www.reddit.com/r/ebikes/comments/1xnavny/do_you_ride_your_ebike_every_day_or_mainly_on/ 。未提供帖子具体内容、互动数据或 D9 产品资料；不能据此声称受众偏好、热门趋势或产品能力。5% 是待检验目标，不是历史基准或预测。",
+        "tags": "D9 InstagramReels 互动提问 原创假设"
+      }
+    ],
+    "evidence_limits": [
+      "资料中列出的近期选题包括黑五等待、低温骑行、单车旅行、礼物及 AI 视觉方向；本建议不将这些标题视为已验证的表现案例。",
+      "公开研究记录提供了来源及检查日期，但未提供帖子正文和互动数据；不得推断讨论规模、情绪或趋势强度。",
+      "未提供经批准的产品性能、价格或效果事实；拍摄与文案不得自行补充。",
+      "本次仅输出建议，不发布内容或覆盖既有记录。"
+    ],
+    "requires_human_adoption": true
+  },
+  "review": null,
+  "adjudication": null,
+  "scope": "read only approved product facts, recent ideas and stored public research",
+  "write_status": "workspace_pending_recommendations",
+  "workspace_write": {
+    "version": 1056,
+    "updatedAt": "2026-11-19T06:34:40.564Z",
+    "addedIds": [
+      "atlas-b6cdf394-039d-48c3-bc0e-935420b94294-0"
+    ],
+    "skippedIds": [],
+    "receipt": {
+      "requestId": "atlas-b6cdf394-039d-48c3-bc0e-935420b94294",
+      "appliedAt": "2026-11-19T06:34:40.564Z",
+      "addedIds": [
+        "atlas-b6cdf394-039d-48c3-bc0e-935420b94294-0"
+      ],
+      "skippedIds": []
+    }
+  },
+  "execution": {
+    "source_cache": {
+      "hits": 0,
+      "misses": 6,
+      "requested": 6
+    },
+    "elapsed_ms": 35124,
+    "source_failures": 3,
+    "verified_sources": 3
+  },
+  "github": {
+    "status": "github_pushed",
+    "path": "handoffs/runs/2026-11-19/b6cdf394-039d-48c3-bc0e-935420b94294.json"
+  }
+}

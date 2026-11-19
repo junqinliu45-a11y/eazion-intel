@@ -1,0 +1,429 @@
+{
+  "run_id": "3e4851fc-4eb8-4d8c-b19a-738451f8677c",
+  "kind": "竞品监测",
+  "agent": "Scout",
+  "observed_at": "2026-11-19T01:15:14Z",
+  "sources": [
+    {
+      "url": "https://www.tiktok.com/@kingbullbike",
+      "captured_at": "2026-11-19T01:07:48Z",
+      "fetch_status": 200,
+      "title": "TikTok - Make Your Day",
+      "description": "",
+      "raw_excerpt": "TikTok - Make Your Day",
+      "content_ready": true,
+      "evidence_limit": "Public page text only. Prices, specs, reviews and claims require human verification before publication.",
+      "fetch_attempts": 1,
+      "competitor_id": "rival-06ebb8f0-4b24-4fee-8d6b-fc2deb89d49c",
+      "competitor": "Kingbull Kingbull Ranger | Vintage Off-Road Electric Bike",
+      "platform": "tiktok",
+      "kind": "official_social",
+      "cache": "hit"
+    },
+    {
+      "url": "https://www.instagram.com/kingbullbike/",
+      "captured_at": "2026-11-19T01:07:48Z",
+      "fetch_status": 302,
+      "evidence_limit": "Public page returned an HTTP error.",
+      "fetch_attempts": 1,
+      "competitor_id": "rival-06ebb8f0-4b24-4fee-8d6b-fc2deb89d49c",
+      "competitor": "Kingbull Kingbull Ranger | Vintage Off-Road Electric Bike",
+      "platform": "instagram",
+      "kind": "official_social",
+      "cache": "hit"
+    },
+    {
+      "url": "https://www.youtube.com/@kingbullbike",
+      "captured_at": "2026-11-19T01:07:48Z",
+      "fetch_status": 200,
+      "title": "",
+      "description": "",
+      "raw_excerpt": "",
+      "content_ready": false,
+      "evidence_limit": "Public page text only. Prices, specs, reviews and claims require human verification before publication.",
+      "fetch_attempts": 1,
+      "competitor_id": "rival-06ebb8f0-4b24-4fee-8d6b-fc2deb89d49c",
+      "competitor": "Kingbull Kingbull Ranger | Vintage Off-Road Electric Bike",
+      "platform": "youtube",
+      "kind": "official_social",
+      "cache": "hit"
+    },
+    {
+      "url": "https://www.facebook.com/KingbullBikes",
+      "captured_at": "2026-11-19T01:07:48Z",
+      "fetch_status": 400,
+      "evidence_limit": "Public page returned an HTTP error.",
+      "fetch_attempts": 1,
+      "competitor_id": "rival-06ebb8f0-4b24-4fee-8d6b-fc2deb89d49c",
+      "competitor": "Kingbull Kingbull Ranger | Vintage Off-Road Electric Bike",
+      "platform": "facebook",
+      "kind": "official_social",
+      "cache": "hit"
+    },
+    {
+      "url": "https://www.instagram.com/beecoolbikes",
+      "captured_at": "2026-11-19T01:07:49Z",
+      "fetch_status": 302,
+      "evidence_limit": "Public page returned an HTTP error.",
+      "fetch_attempts": 1,
+      "competitor_id": "rival-0134f3eb-555a-4b09-bcde-b05ee009b11e",
+      "competitor": "BeeCool Bee Pathfinder Step-Thru",
+      "platform": "instagram",
+      "kind": "official_social",
+      "cache": "hit"
+    },
+    {
+      "url": "https://www.youtube.com/channel/UCk1w5dc_SxI49A54FdEpI5Q",
+      "captured_at": "2026-11-19T01:07:50Z",
+      "fetch_status": 200,
+      "title": "",
+      "description": "",
+      "raw_excerpt": "",
+      "content_ready": false,
+      "evidence_limit": "Public page text only. Prices, specs, reviews and claims require human verification before publication.",
+      "fetch_attempts": 1,
+      "competitor_id": "rival-0134f3eb-555a-4b09-bcde-b05ee009b11e",
+      "competitor": "BeeCool Bee Pathfinder Step-Thru",
+      "platform": "youtube",
+      "kind": "official_social",
+      "cache": "hit"
+    },
+    {
+      "url": "https://www.facebook.com/Beecoolbikes",
+      "captured_at": "2026-11-19T01:07:49Z",
+      "fetch_status": 400,
+      "evidence_limit": "Public page returned an HTTP error.",
+      "fetch_attempts": 1,
+      "competitor_id": "rival-0134f3eb-555a-4b09-bcde-b05ee009b11e",
+      "competitor": "BeeCool Bee Pathfinder Step-Thru",
+      "platform": "facebook",
+      "kind": "official_social",
+      "cache": "hit"
+    },
+    {
+      "url": "https://www.youtube.com/watch?v=oq8mRi4BpYY",
+      "captured_at": "2026-11-19T01:07:52Z",
+      "fetch_status": 200,
+      "title": "",
+      "description": "",
+      "raw_excerpt": "",
+      "content_ready": false,
+      "evidence_limit": "Public page text only. Prices, specs, reviews and claims require human verification before publication.",
+      "fetch_attempts": 1,
+      "competitor_id": "rival-0134f3eb-555a-4b09-bcde-b05ee009b11e",
+      "competitor": "BeeCool Bee Pathfinder Step-Thru",
+      "platform": "YouTube",
+      "kind": "observed_post",
+      "cache": "hit"
+    },
+    {
+      "url": "https://www.instagram.com/mokwheelbikes/",
+      "captured_at": "2026-11-19T01:07:51Z",
+      "fetch_status": 302,
+      "evidence_limit": "Public page returned an HTTP error.",
+      "fetch_attempts": 1,
+      "competitor_id": "rival-b30f71d1-5617-409e-b562-1629c7af4458",
+      "competitor": "Mokwheel Obsidian ST 2.0",
+      "platform": "instagram",
+      "kind": "official_social",
+      "cache": "hit"
+    },
+    {
+      "url": "https://www.youtube.com/channel/UCiLl-ZgVdKKqCE8NQagt-sg",
+      "captured_at": "2026-11-19T01:07:57Z",
+      "fetch_status": 200,
+      "title": "",
+      "description": "",
+      "raw_excerpt": "",
+      "content_ready": false,
+      "evidence_limit": "Public page text only. Prices, specs, reviews and claims require human verification before publication.",
+      "fetch_attempts": 1,
+      "competitor_id": "rival-b30f71d1-5617-409e-b562-1629c7af4458",
+      "competitor": "Mokwheel Obsidian ST 2.0",
+      "platform": "youtube",
+      "kind": "official_social",
+      "cache": "hit"
+    },
+    {
+      "url": "https://www.facebook.com/Mokwheel",
+      "captured_at": "2026-11-19T01:07:52Z",
+      "fetch_status": 400,
+      "evidence_limit": "Public page returned an HTTP error.",
+      "fetch_attempts": 1,
+      "competitor_id": "rival-b30f71d1-5617-409e-b562-1629c7af4458",
+      "competitor": "Mokwheel Obsidian ST 2.0",
+      "platform": "facebook",
+      "kind": "official_social",
+      "cache": "hit"
+    },
+    {
+      "url": "https://www.tiktok.com/@ridegotrax",
+      "captured_at": "2026-11-19T01:07:52Z",
+      "fetch_status": 200,
+      "title": "TikTok - Make Your Day",
+      "description": "",
+      "raw_excerpt": "TikTok - Make Your Day",
+      "content_ready": true,
+      "evidence_limit": "Public page text only. Prices, specs, reviews and claims require human verification before publication.",
+      "fetch_attempts": 1,
+      "competitor_id": "rival-c86bf8b9-dbbd-421c-98cc-84fd6137a34f",
+      "competitor": "GOTRAX Ranger",
+      "platform": "tiktok",
+      "kind": "official_social",
+      "cache": "hit"
+    },
+    {
+      "url": "https://www.instagram.com/ridegotrax",
+      "captured_at": "2026-11-19T01:07:53Z",
+      "fetch_status": 302,
+      "evidence_limit": "Public page returned an HTTP error.",
+      "fetch_attempts": 1,
+      "competitor_id": "rival-c86bf8b9-dbbd-421c-98cc-84fd6137a34f",
+      "competitor": "GOTRAX Ranger",
+      "platform": "instagram",
+      "kind": "official_social",
+      "cache": "hit"
+    },
+    {
+      "url": "https://www.youtube.com/c/GOTRAX/videos",
+      "captured_at": "2026-11-19T01:07:55Z",
+      "fetch_status": 200,
+      "title": "",
+      "description": "",
+      "raw_excerpt": "",
+      "content_ready": false,
+      "evidence_limit": "Public page text only. Prices, specs, reviews and claims require human verification before publication.",
+      "fetch_attempts": 1,
+      "competitor_id": "rival-c86bf8b9-dbbd-421c-98cc-84fd6137a34f",
+      "competitor": "GOTRAX Ranger",
+      "platform": "youtube",
+      "kind": "official_social",
+      "cache": "hit"
+    },
+    {
+      "url": "https://www.facebook.com/RideGOTRAX/",
+      "captured_at": "2026-11-19T01:07:54Z",
+      "fetch_status": 400,
+      "evidence_limit": "Public page returned an HTTP error.",
+      "fetch_attempts": 1,
+      "competitor_id": "rival-c86bf8b9-dbbd-421c-98cc-84fd6137a34f",
+      "competitor": "GOTRAX Ranger",
+      "platform": "facebook",
+      "kind": "official_social",
+      "cache": "hit"
+    },
+    {
+      "url": "https://www.tiktok.com/@cycrownbikes",
+      "captured_at": "2026-11-19T01:07:57Z",
+      "fetch_status": 200,
+      "title": "TikTok - Make Your Day",
+      "description": "",
+      "raw_excerpt": "TikTok - Make Your Day",
+      "content_ready": true,
+      "evidence_limit": "Public page text only. Prices, specs, reviews and claims require human verification before publication.",
+      "fetch_attempts": 1,
+      "competitor_id": "rival-ea992e33-8fb0-4464-9b6a-5dfaa1f9b903",
+      "competitor": "Cycrown CycHunter 2.0",
+      "platform": "tiktok",
+      "kind": "official_social",
+      "cache": "hit"
+    },
+    {
+      "url": "https://www.instagram.com/cycrownbikes/",
+      "captured_at": "2026-11-19T01:07:56Z",
+      "fetch_status": 302,
+      "evidence_limit": "Public page returned an HTTP error.",
+      "fetch_attempts": 1,
+      "competitor_id": "rival-ea992e33-8fb0-4464-9b6a-5dfaa1f9b903",
+      "competitor": "Cycrown CycHunter 2.0",
+      "platform": "instagram",
+      "kind": "official_social",
+      "cache": "hit"
+    },
+    {
+      "url": "https://www.youtube.com/@cycrownbikes",
+      "captured_at": "2026-11-19T01:07:59Z",
+      "fetch_status": 200,
+      "title": "",
+      "description": "",
+      "raw_excerpt": "",
+      "content_ready": false,
+      "evidence_limit": "Public page text only. Prices, specs, reviews and claims require human verification before publication.",
+      "fetch_attempts": 1,
+      "competitor_id": "rival-ea992e33-8fb0-4464-9b6a-5dfaa1f9b903",
+      "competitor": "Cycrown CycHunter 2.0",
+      "platform": "youtube",
+      "kind": "official_social",
+      "cache": "hit"
+    },
+    {
+      "url": "https://www.facebook.com/cycrownbikes/",
+      "captured_at": "2026-11-19T01:07:57Z",
+      "fetch_status": 302,
+      "evidence_limit": "Public page returned an HTTP error.",
+      "fetch_attempts": 1,
+      "competitor_id": "rival-ea992e33-8fb0-4464-9b6a-5dfaa1f9b903",
+      "competitor": "Cycrown CycHunter 2.0",
+      "platform": "facebook",
+      "kind": "official_social",
+      "cache": "hit"
+    },
+    {
+      "url": "https://www.facebook.com/Puckipuppybike/",
+      "captured_at": "2026-11-19T01:07:59Z",
+      "fetch_status": 302,
+      "evidence_limit": "Public page returned an HTTP error.",
+      "fetch_attempts": 1,
+      "competitor_id": "rival-3caad01d-cf65-41d0-b417-3506482a0d3b",
+      "competitor": "puckipuppy Alaskan Etrike",
+      "platform": "facebook",
+      "kind": "official_social",
+      "cache": "hit"
+    },
+    {
+      "url": "https://www.youtube.com/@Puckipuppyelectricbike",
+      "captured_at": "2026-11-19T01:08:01Z",
+      "fetch_status": 200,
+      "title": "",
+      "description": "",
+      "raw_excerpt": "",
+      "content_ready": false,
+      "evidence_limit": "Public page text only. Prices, specs, reviews and claims require human verification before publication.",
+      "fetch_attempts": 1,
+      "competitor_id": "rival-3caad01d-cf65-41d0-b417-3506482a0d3b",
+      "competitor": "puckipuppy Alaskan Etrike",
+      "platform": "youtube",
+      "kind": "official_social",
+      "cache": "hit"
+    },
+    {
+      "url": "https://www.instagram.com/puckipuppy/",
+      "captured_at": "2026-11-19T01:07:59Z",
+      "fetch_status": 302,
+      "evidence_limit": "Public page returned an HTTP error.",
+      "fetch_attempts": 1,
+      "competitor_id": "rival-3caad01d-cf65-41d0-b417-3506482a0d3b",
+      "competitor": "puckipuppy Alaskan Etrike",
+      "platform": "instagram",
+      "kind": "official_social",
+      "cache": "hit"
+    },
+    {
+      "url": "https://www.tiktok.com/@puckipuppy?is_from_webapp=1&sender_device=pc",
+      "captured_at": "2026-11-19T01:08:00Z",
+      "fetch_status": 200,
+      "title": "TikTok - Make Your Day",
+      "description": "",
+      "raw_excerpt": "TikTok - Make Your Day",
+      "content_ready": true,
+      "evidence_limit": "Public page text only. Prices, specs, reviews and claims require human verification before publication.",
+      "fetch_attempts": 1,
+      "competitor_id": "rival-3caad01d-cf65-41d0-b417-3506482a0d3b",
+      "competitor": "puckipuppy Alaskan Etrike",
+      "platform": "tiktok",
+      "kind": "official_social",
+      "cache": "hit"
+    },
+    {
+      "url": "https://www.youtube.com/@mooncooltrike",
+      "captured_at": "2026-11-19T01:08:04Z",
+      "fetch_status": 200,
+      "title": "",
+      "description": "",
+      "raw_excerpt": "",
+      "content_ready": false,
+      "evidence_limit": "Public page text only. Prices, specs, reviews and claims require human verification before publication.",
+      "fetch_attempts": 1,
+      "competitor_id": "rival-1bb46909-012c-478f-9293-11201d13217e",
+      "competitor": "mooncool TK2 Folding Electric Trike",
+      "platform": "youtube",
+      "kind": "official_social",
+      "cache": "hit"
+    }
+  ],
+  "handoffs": [
+    {
+      "name": "聚合 API 2",
+      "model": "gpt-6.1-terra",
+      "output": "{\"summary\":\"未收到可核验的公开页面抓取内容，无法形成竞品页面观察。\",\"items\":[],\"evidence_limits\":[\"输入在第二条竞品记录处截断，未包含完整的 public_sources 或新抓取页面摘录。\",\"Kingbull Ranger 的监测记录显示此前未抓取；现有信息不足以判断页面内容或相对于先前快照的变化。\",\"提供的社交媒体网址仅为监测来源，不能据此认定已成功抓取或产生竞品发现。\"],\"requires_human_adoption\":false}",
+      "tokens": 1706,
+      "elapsed_ms": 5780
+    },
+    {
+      "name": "聚合 API 1",
+      "model": "claude-sonnet-5-5",
+      "output": "{\"summary\":\"本次提供的数据中没有任何已抓取的公开页面摘录。Kingbull Ranger(对标 EAZION K9)的 11 个监测字段均为“待下一次公开页抓取”,来源和抓取时间均为“未抓取”。工作区数据在第二个竞品(id rival-0134f3eb-…)处被截断,该竞品的来源和内容无法读取。没有已抓取来源就没有可核验的实质变化,因此不生成条目。\",\"items\":[],\"evidence_limits\":[\"Kingbull Ranger 官网产品页 https://www.kingbullbike.com/products/kingbull-ranger-vintage-off-road-electric-bike 以及 TikTok、Instagram、YouTube、Facebook 官方账号目前只是监测清单中的 URL,没有抓取内容,不能据此得出价格、规格、促销、保修、评价或内容角度的任何结论。\",\"所有监测字段(当前价格与促销、车型与定位、核心配置与规格、产品页卖点与证明、套餐/随车物品、保修退换与服务、用户评价与 UGC 主题、销售/评价/创作者信号、短视频内容角度、SEO 页面与广告落地页、对标受众与年龄范围)的 checkedAt 均为“未抓取”,没有上一次快照可对比,无法判断是否发生变化。\",\"输入数据在第二个竞品处被截断,其品牌、型号、来源 URL 和监测字段均未知,不能为其生成任何观察。\",\"EAZION 一侧的字段均为“待 EAZION 产品事实补充”,不能写入任何 EAZION 事实或对比结论。\",\"没有来源的结论不得采用;本次没有可供人工采用并写入竞品卡片的复核备注。\"],\"requires_human_adoption\":true}",
+      "tokens": 3183,
+      "elapsed_ms": 9627
+    },
+    {
+      "name": "聚合 API 2",
+      "model": "gpt-6-sol",
+      "output": "{\n  \"summary\": \"本次输入未提供 public_sources、新抓取的公开页面摘录或可比较的历史快照，无法形成可核验的竞品页面变化观察。Kingbull Ranger 现有记录仍为待抓取状态；不将其视为抓取失败或“无实质变化”。\",\n  \"items\": [],\n  \"evidence_limits\": [\n    \"输入在第二个竞品记录开头截断，无法确认完整竞品清单及后续来源。\",\n    \"Kingbull 产品页 https://www.kingbullbike.com/products/kingbull-ranger-vintage-off-road-electric-bike 仅出现在监测资料中，未提供本次抓取结果；不能确认当前页面品牌、型号、变体、价格、币种、促销条件或规格。\",\n    \"TikTok 来源 https://www.tiktok.com/@kingbullbike 未提供本次公开页面摘录，无法核验内容或变化。\",\n    \"Instagram 来源 https://www.instagram.com/kingbullbike/ 未提供本次公开页面摘录，无法核验内容或变化。\",\n    \"YouTube 来源 https://www.youtube.com/@kingbullbike 未提供本次公开页面摘录，无法核验内容或变化。\",\n    \"Facebook 来源 https://www.facebook.com/KingbullBikes 未提供本次公开页面摘录，无法核验内容或变化。\",\n    \"现有监测行均标注未抓取，不能作为历史页面快照；缺少证据不代表页面无实质变化。\",\n    \"本次无可供人工采用的竞品卡片观察，不生成 EAZION 产品事实或竞品比较结论。\"\n  ],\n  \"requires_human_adoption\": true\n}",
+      "tokens": 1954,
+      "elapsed_ms": 11859
+    }
+  ],
+  "proposal": {
+    "summary": "模型未按结构合同返回；已将本轮可核验的公开页面快照写入对应竞品卡，未把快照表述为变化结论。",
+    "items": [
+      {
+        "title": "Kingbull Kingbull Ranger | Vintage Off-Road Electric Bike · tiktok 公开页快照",
+        "action": "本轮抓取到的公开页面文本：TikTok - Make Your Day",
+        "evidence_limit": "这是 tiktok 的静态公开页面快照；未能从历史版本确认变化，也不代表价格、库存、销量或活动效果。",
+        "source_url": "https://www.tiktok.com/@kingbullbike"
+      },
+      {
+        "title": "GOTRAX Ranger · tiktok 公开页快照",
+        "action": "本轮抓取到的公开页面文本：TikTok - Make Your Day",
+        "evidence_limit": "这是 tiktok 的静态公开页面快照；未能从历史版本确认变化，也不代表价格、库存、销量或活动效果。",
+        "source_url": "https://www.tiktok.com/@ridegotrax"
+      },
+      {
+        "title": "Cycrown CycHunter 2.0 · tiktok 公开页快照",
+        "action": "本轮抓取到的公开页面文本：TikTok - Make Your Day",
+        "evidence_limit": "这是 tiktok 的静态公开页面快照；未能从历史版本确认变化，也不代表价格、库存、销量或活动效果。",
+        "source_url": "https://www.tiktok.com/@cycrownbikes"
+      },
+      {
+        "title": "puckipuppy Alaskan Etrike · tiktok 公开页快照",
+        "action": "本轮抓取到的公开页面文本：TikTok - Make Your Day",
+        "evidence_limit": "这是 tiktok 的静态公开页面快照；未能从历史版本确认变化，也不代表价格、库存、销量或活动效果。",
+        "source_url": "https://www.tiktok.com/@puckipuppy?is_from_webapp=1&sender_device=pc"
+      }
+    ],
+    "evidence_limits": [
+      "tiktok：仅记录静态公开页面文本，不把快照视为变化或经营结论。"
+    ],
+    "requires_human_adoption": false,
+    "degraded": "source_snapshot_after_invalid_model_output"
+  },
+  "review": null,
+  "adjudication": null,
+  "scope": "read monitored competitor URLs and their newly captured public page excerpts",
+  "write_status": "workspace_competitor_updates",
+  "workspace_write": {
+    "version": 1051,
+    "updatedAt": "2026-11-19T01:15:14.185Z",
+    "updatedCompetitors": [
+      "rival-06ebb8f0-4b24-4fee-8d6b-fc2deb89d49c",
+      "rival-c86bf8b9-dbbd-421c-98cc-84fd6137a34f",
+      "rival-ea992e33-8fb0-4464-9b6a-5dfaa1f9b903",
+      "rival-3caad01d-cf65-41d0-b417-3506482a0d3b"
+    ]
+  },
+  "execution": {
+    "source_cache": {
+      "hits": 24,
+      "misses": 0,
+      "requested": 24
+    },
+    "elapsed_ms": 28960,
+    "source_failures": 12,
+    "verified_sources": 4
+  },
+  "github": {
+    "status": "github_pushed",
+    "path": "handoffs/runs/2026-11-19/3e4851fc-4eb8-4d8c-b19a-738451f8677c.json"
+  }
+}
